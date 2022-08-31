@@ -1,1 +1,1 @@
-There is no place like home
+Displays current directory contents in long format
