@@ -1,1 +1,1 @@
-Displays directories contents in long format with user and group Ids in numerical order and displays hidden files
+This script creates a directory named my_first_directory in the /tmp/ directory
