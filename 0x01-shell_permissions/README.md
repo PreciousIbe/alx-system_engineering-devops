@@ -1,1 +1,1 @@
-This script that switches the current user to user betty
+This script prints the effective username of the current user
