@@ -1,36 +1,42 @@
-## 0x01. Shell, permissions
-0-iam_betty - Create a script that changes your user ID to betty. You should use exactly 8 characters for your command (+1 character for the new line). You can assume that the user betty will exist when we will run your script
+## ALX Shell basics
+0-Where am I - Create a script that prints the absolute path name of the current working directory.
 
-1-who_am_i - Write a script that prints the effective userid of the current user.
+1-What's in there - prints the absolute path name of the current working directory.
 
-4-empty - Write a script that creates an empty file called hello.
+2-There is no place like home - Write a script that changes the working directory to the user's home directory.
 
-2-groups - Write a script that prints all the groups the current user is part of.
+3-The long format - Display current directory contents in long format.
 
-3-new_owner - Write a script that changes the owner of the file hello to the user betty.
+4-Hidden files - Display current directory contents, including hidden files (starting with .). Use the long format.
 
-5-execute - Write a script that adds execute permission to the owner of the file hello. The file hello will be in the working directory
+5-I love numbers - Displays current directory contents.
 
-6-multiple_permissions - Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello. The file hello will be in the working directory.
+6-Welcome - Create a script that creates a directory named my_first_directory in the /tmp/ directory.
 
-7-everybody - Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello. The file hello will be in the working directory, You are not allowed to use commas for this script
+7-Betty in the first directory - Move the file betty from /tmp/ to /tmp/my_first_directory.
 
-8-James_Bond - Write a script that sets the permission to the file hello as follows: Owner: no permission at all Group: no permission at all Other users: all the permissions The file hello will be in the working directory You are not allowed to use commas for this script
+8-Bye bye Betty - Delete the file betty.
 
-9-John_Doe - Write a script that sets the mode of the file hello to this: -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello The file hello will be in the working directory You are not allowed to use commas for this script
+9-Bye bye My first directory - Delete the directory my_first_directory that is in the /tmp directory.
 
-10-mirror_permissions - Write a script that sets the mode of the file hello the same as olleh’s mode. The file hello will be in the working directory The file olleh will be in the working directory
+10-Back to the future - Write a script that changes the working directory to the previous one.
 
-11-directories_permissions - Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+11-Lists - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 
-12-directory_permissions - Create a script that creates a directory called dir_holberton with permissions 751 in the working directory.
+12-File type - Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
 
-13-change_group - Write a script that changes the group owner to holberton for the file hello The file hello will be in the working directory
+13-We are symbols, and inhabit symbols -Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
 
-14-change_owner_and_group - Write a script that changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
+14-Copy HTML files - Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
-15-symbolic_link_permissions - Write a script that changes the owner and the group owner of the file _hello to betty and holberton respectively. The file _hello is in the working directory The file _hello is a symbolic link
+15-Let's move - Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 
-16-if_only - Write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume. The file hello will be in the working directory
+16-Clean Emacs - Create a script that deletes all files in the current working directory that end with the character ~.
 
-17-Star_Wars - Write a script that will play the StarWars IV episode in the terminal.
+17-Tree - Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+
+18-Lofe is a series of commas, not periods - Write a command that lists all the files and directories of the current directory, separated by commas (,).
+
+19-File type: School - Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+
+
