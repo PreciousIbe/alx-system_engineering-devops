@@ -1,1 +1,1 @@
-This script adds executive permission to the owner and the group owner and read permission to other users to the file hello
+This script adds executive permission to the owner, the group owner and the other user to the file hello
