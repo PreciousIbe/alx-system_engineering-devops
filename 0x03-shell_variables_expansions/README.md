@@ -7,4 +7,8 @@
  5.Local variables- Create a script that lists all loacl variables and environment variables, and functions.
  6.Local variable- Create a script that creates a new local variable.
  7.Global variable- Create a script that creates a new global variable.
- 
+ 8.Addition to true knowledge- Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+ 9.Divide and rule- Write a script that prints the result of power dvided by DIVIDE, followed by a new line.
+ 10.Love is anterior to life- Write a script that displays the result of BREATH to the power LOVE.
+ 11.There are 10 types of people in the world- Write a script that converts a number from base 2 to base 10.
+
